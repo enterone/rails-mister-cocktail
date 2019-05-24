@@ -7,7 +7,6 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 require 'json'
 require 'open-uri'
-require 'byebug'
 
 collection = JSON.parse(open('https://www.thecocktaildb.com/api/json/v1/1/list.php?i=list').read)
 
