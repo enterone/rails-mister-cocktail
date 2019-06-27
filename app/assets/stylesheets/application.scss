@@ -10,4 +10,9 @@
 
 // Your CSS partials
 @import "components/index";
+@import "pages/cocktails";
 @import "pages/index";
+
+.wrapper {
+  background: black;
+}
